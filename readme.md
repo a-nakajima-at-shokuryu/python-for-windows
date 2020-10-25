@@ -12,6 +12,6 @@ $ wget http://bootstrap.pypa.io/get-pip.py
 PATHを通すBATファイル
 ```
 @echo off
-set PATH=%~dp0\Python38
-set PATH=%~dp0\Python38\Scripts
+set PATH=%~dp0\Python38;%PATH%
+set PATH=%~dp0\Python38\Scripts;%PATH%
 ```
